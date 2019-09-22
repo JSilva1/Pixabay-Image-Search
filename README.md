@@ -1,5 +1,7 @@
 # **Pixabay Image Search** - Web App
 
+### Demo [https://pixabay-img-search.netlify.com](https://pixabay-img-search.netlify.com)
+
 ## Docs
 
 [Documentação da API](https://pixabay.com/api/docs/)
@@ -13,7 +15,6 @@
 Entre em sua conta
 e lembre-se de copiar a sua chave da API e colocar na váriavel `apiKey`
 
-*main.js*
+_main.js_
 
 > const apiKey = "YOUR_API_KEY"
-> 

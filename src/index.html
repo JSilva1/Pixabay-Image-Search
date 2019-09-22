@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltf">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Jeferson">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Jeferson" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/main.js" defer charset="UTF-8"></script>
     <title>Pesquisa de Imagens</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="section">
-        <div class="container">
-            <div class="row">
-                <h1 class="is-size-1">Pesquisa de Imagens utilizando API do Pixabay</h1>
-                <form action="" class="">
-                    <div class="field has-addons">
-                        <p class="control">
-                            <input class="input" type="text" placeholder="Procure imagens ...">
-                        </p>
-                        <p class="control">
-                            <button class="button is-warning">Pesquisar</button>
-                        </p>
-                    </div>
-                </form>
-
-                <div id="results"></div>
-                <div id="loading" style="display:none;"></div>
-                <section id="image-results">
-                </section>
+      <div class="container">
+        <div class="row">
+          <h1 class="is-size-1">
+            Pesquisa de Imagens utilizando API do Pixabay
+          </h1>
+          <form>
+            <div class="field has-addons">
+              <p class="control">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Procure imagens ..."
+                />
+              </p>
+              <p class="control">
+                <button class="button is-warning">Pesquisar</button>
+              </p>
             </div>
-        </div>
-    </section>
-</body>
+          </form>
 
+          <div id="results"></div>
+          <div id="loading" style="display:none;"></div>
+          <section id="image-results"></section>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
